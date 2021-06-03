@@ -39,7 +39,7 @@ class Window:
         self.bttns["path"].grid(column = 1, row = 0, padx = 5, pady = 5)        
         self.entry["user"] = ttk.Entry(self.frame)
         self.entry["user"].grid(row = 1, column = 1, padx = 5, pady = 5)
-        self.entry["dbps"] = ttk.Entry(self.frame)
+        self.entry["dbps"] = ttk.Entry(self.frame, show = "*")
         self.entry["dbps"].grid(row = 2, column = 1, padx = 5, pady = 5)
         self.entry["dbnm"] = ttk.Entry(self.frame)
         self.entry["dbnm"].grid(row = 3, column = 1, padx = 5, pady = 5)
